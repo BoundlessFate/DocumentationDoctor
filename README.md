@@ -9,6 +9,8 @@ Quickly Create And Edit Documentation For Software
 
 **DocuDoctor** helps you create documentation for software, including UML, sequence diagrams, and more!
 
+<br>
+
 <h6 align="center">
   
 Made with ❤️ for [RCOS @ RPI](https://github.com/rcos)
