@@ -5,11 +5,11 @@ Quickly Create And Edit Documentation For Software
 
 **DocuDoctor**
 
+<br>
+
 </h1>
 
 **DocuDoctor** helps you create documentation for software, including UML, sequence diagrams, and more!
-
-<br>
 
 <h6 align="center">
   
