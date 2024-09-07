@@ -1,0 +1,27 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net8.0-windows</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <UseWPF>true</UseWPF>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="assets\close.png" />
+    <None Remove="assets\DocumentationDoctor.ico" />
+    <None Remove="assets\DocumentationDoctor.png" />
+    <None Remove="assets\maximize.png" />
+    <None Remove="assets\minimize.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="assets\close.png" />
+    <Resource Include="assets\DocumentationDoctor.ico" />
+    <Resource Include="assets\DocumentationDoctor.png" />
+    <Resource Include="assets\maximize.png" />
+    <Resource Include="assets\minimize.png" />
+  </ItemGroup>
+
+</Project>
