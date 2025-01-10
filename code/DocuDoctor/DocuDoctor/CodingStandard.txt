@@ -1,0 +1,26 @@
+A Few things of node for coding standards
+1. All classes should be preceded by a summary block outlining what the point of the class is
+2. All methods should have a header block like outlined in MainWindow.xaml.cs for example
+3. Do not use the this keyword unless necessary
+4. Never use the var keyword, always declare the type
+5. Classes should be broken up into the Model View Controller structure
+5a. That means that the view should never do computations
+5b. That means the controller should never display anything or compute much except for actions
+5c. That means the model shouldn't handle user actions
+5d. The 3 components in MVC should be in separate classes
+6. When working in general, keep code closed for modification but open for extension
+7. Avoid duplicate code at all costs
+8. Unless necessary, classes should serve one purpose
+9. Methods should do one specific thing
+9a. If you need a method to complete some overarching task, break up the code into smaller methods and call in the main one
+10. Any given method should be able to be viewed on a normal screen size (dont make them too long)
+11. Stray away from having lines of code from being super long
+12. If you have mutliple lines that serve a single purpose and they are short enough, you can combine them into one one
+12a. For example, you can have a line that is something like: arr[0] = 1; arr[1] = 5;
+13. Objects that are needed in two places should be referenced, not duplicated (especially custom object types)
+14. Data should be private unless necessary
+15. Precede object data members with m_ (i.e. m_myArr)
+16. For private data types that need to be accessed elsewhere, create a public property to access them
+17. If there is a need to get data in its raw type and a string, append a V to the end of the property name for the raw type
+17a. i.e. (string) num and (int) numV being public properties for the private int m_num
+18. Classes should be capitalized fully while variables should be in camel case
